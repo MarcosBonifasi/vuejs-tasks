@@ -23,7 +23,7 @@ module.exports = {
         .then(result => result.json())
 
     },
-    async putTask(task_id, new_data){
+    putTask: async(task_id, new_data) => {
         return await fetch(`${endPointsDevelopment.urlDocument}/${task_id}`, {
             method: "PUT",
             headers: {

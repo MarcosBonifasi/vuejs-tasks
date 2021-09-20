@@ -56,6 +56,7 @@ export default {
 #task-name {
     background-color: transparent!important;
     border: none;
+    cursor: pointer;
 }
 
 </style>
